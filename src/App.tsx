@@ -168,7 +168,7 @@ const App: React.FC = () => {
   return (
       <header className="header">
         <div className="branding">
-          <img src="/logo.png" alt="Faultfiles Logo" className="logo" />
+          <img src="/logo.PNG" alt="Faultfiles Logo" className="logo" />
           <div>
             <h1 className="title">FAULTFILES</h1>
             <div className="subtitle">CENTRAL INFORMATION SYSTEM // CLEARANCE: 1</div>
