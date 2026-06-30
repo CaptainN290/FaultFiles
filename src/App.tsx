@@ -166,10 +166,14 @@ const App: React.FC = () => {
   };
 
   return (
-    <div className="app-container" tabIndex={0} onKeyDown={handleKeyDown}>
       <header className="header">
-        <h1 className="title">PLACEHOLDER FILES</h1>
-        <div className="subtitle">CENTRAL INFORMATION SYSTEM // CLEARANCE: 1</div>
+        <div className="branding">
+          <img src="/logo.png" alt="Faultfiles Logo" className="logo" />
+          <div>
+            <h1 className="title">FAULTFILES</h1>
+            <div className="subtitle">CENTRAL INFORMATION SYSTEM // CLEARANCE: 1</div>
+          </div>
+        </div>
       </header>
 
       <main className="content">
